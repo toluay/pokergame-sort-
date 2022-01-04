@@ -1,0 +1,19 @@
+gata = [ 2, "dsds", 4,8,9,2, "Queen", "king"]
+[ 2, 4,8,9,"dsds", "Queen", "king"]
+cards.sort((currentValue, nextValue)=>{
+currentValue = 'king' == currentValue ? 1000:currentValue ;
+//currentValue = /king/i.test(currentValue)? 1000:currentValue ;
+currentValue = 'queen' == currentValue ? 900 : currentVlue;
+//currentValue = /Queen/i.test(currentValue)? 1000:currentValue ;
+
+nextValue = 'king'=== nextValue  ? 1000 :nextValue;
+nextValue = 'queen' === nextValue ? 900: nextValue;
+
+if(currentValue > nextValue){
+return 1
+}
+else if (currentValue< nextValue){
+return -1
+}
+else{ return 0}
+})
