@@ -1,5 +1,5 @@
-gata = [ 2, "dsds", 4,8,9,2, "Queen", "king"]
-[ 2, 4,8,9,"dsds", "Queen", "king"]
+cards = [ 2, "dsds", 4,8,9,2, "Queen", "king"]
+//[ 2, 4,8,9,"dsds", "Queen", "king"]
 cards.sort((currentValue, nextValue)=>{
 currentValue = 'king' == currentValue ? 1000:currentValue ;
 //currentValue = /king/i.test(currentValue)? 1000:currentValue ;
