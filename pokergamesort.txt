@@ -1,9 +1,9 @@
-cards = [ 2, "dsds", 4,8,9,2, "Queen", "king"]
+var cards = [ 2, "king", 4,8,9,2, "Queen", "king"]
 //[ 2, 4,8,9,"dsds", "Queen", "king"]
-cards.sort((currentValue, nextValue)=>{
+var vava =cards.sort((currentValue, nextValue)=>{
 currentValue = 'king' == currentValue ? 1000:currentValue ;
 //currentValue = /king/i.test(currentValue)? 1000:currentValue ;
-currentValue = 'queen' == currentValue ? 900 : currentVlue;
+currentValue = 'queen' == currentValue ? 900 : currentValue;
 //currentValue = /Queen/i.test(currentValue)? 1000:currentValue ;
 
 nextValue = 'king'=== nextValue  ? 1000 :nextValue;
@@ -17,3 +17,6 @@ return -1
 }
 else{ return 0}
 })
+
+console.log(vava)
+
